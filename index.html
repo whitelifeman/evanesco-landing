@@ -7,31 +7,46 @@
     <style>
         *{margin:0;padding:0;box-sizing:border-box}
         body{background:#0a0a0f;color:#c0c0d0;font-family:'SF Mono','Courier New',monospace;display:flex;align-items:center;justify-content:center;min-height:100vh}
-        .c{max-width:600px;text-align:center;padding:40px 20px}
+        .c{max-width:650px;text-align:center;padding:40px 20px}
         h1{font-size:48px;color:#8b5cf6;letter-spacing:12px;margin-bottom:8px}
-        .sub{color:#555;font-size:14px;margin-bottom:40px}
-        .desc{color:#888;font-size:14px;line-height:1.6;margin-bottom:30px}
-        .feat{display:inline-block;background:#12121a;border:1px solid #2a2a3a;padding:8px 16px;border-radius:6px;margin:4px;font-size:12px}
-        .btn{display:inline-block;background:#8b5cf6;color:#fff;padding:14px 30px;border-radius:8px;text-decoration:none;font-weight:bold;margin:20px 10px;letter-spacing:2px}
-        .btn.gh{background:#1e1e2e;color:#8b5cf6;border:1px solid #2a2a3a}
+        .sub{color:#555;font-size:14px;margin-bottom:12px}
+        .tag{color:#8b5cf6;font-size:12px;margin-bottom:30px}
+        .desc{color:#888;font-size:13px;line-height:1.6;margin-bottom:24px}
+        .feat{display:inline-block;background:#12121a;border:1px solid #2a2a3a;padding:6px 14px;border-radius:6px;margin:3px;font-size:11px}
+        .btn{display:inline-block;background:#8b5cf6;color:#fff;padding:12px 24px;border-radius:8px;text-decoration:none;font-weight:bold;margin:8px;letter-spacing:2px;font-size:13px}
+        .btn.mac{background:#1a1a2e;color:#8b5cf6;border:1px solid #2a2a3a}
+        .downloads{margin:20px 0}
+        .downloads p{color:#555;font-size:11px;margin-bottom:10px}
         .ver{color:#444;font-size:11px;margin-top:30px}
+        .info{color:#555;font-size:10px;margin-top:8px}
     </style>
 </head>
 <body>
     <div class="c">
         <h1>EVANESCO</h1>
         <p class="sub">Say it. Then forget.</p>
-        <div class="desc">P2P Encrypted Messenger. No servers. No logs. No trace.</div>
-        <span class="feat">Tor P2P</span>
-        <span class="feat">E2E Encryption</span>
-        <span class="feat">Self-destruct</span>
-        <span class="feat">Dark/Light Theme</span>
-        <span class="feat">Multilang</span>
-        <span class="feat">File Sharing</span>
-        <br><br>
-        <a href="https://github.com/whitelifeman/Evanesco" class="btn gh">GitHub</a>
+        <p class="tag">P2P Encrypted Messenger · No Servers · No Logs · No Trace</p>
+        
+        <div class="desc">
+            Messages exist only while both users are in the chat. When you leave — everything is destroyed.
+        </div>
+        
+        <div>
+            <span class="feat">Tor P2P</span>
+            <span class="feat">E2E Encryption</span>
+            <span class="feat">Self-destruct</span>
+            <span class="feat">File Sharing</span>
+        </div>
+
+        <div class="downloads">
+            <p>Download for Desktop</p>
+            <a href="https://github.com/whitelifeman/Evanesco" class="btn mac">macOS</a>
+            <a href="https://github.com/whitelifeman/Evanesco" class="btn mac">Windows</a>
+            <a href="https://github.com/whitelifeman/Evanesco" class="btn mac">Linux</a>
+        </div>
+
+        <p class="info">Requires Java 21+</p>
         <p class="ver">v0.7 · By Future Integra</p>
     </div>
 </body>
 </html>
- 
